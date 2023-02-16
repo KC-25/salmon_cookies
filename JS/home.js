@@ -14,6 +14,6 @@ function carousel() {
  slideIndex++;
  if (slideIndex > fishImgs.length) { slideIndex = 1; }
  fishImgs[slideIndex - 1].style.display = 'block';
- setTimeout(carousel, 1000);
+ setTimeout(carousel, 2000);
 }
 
