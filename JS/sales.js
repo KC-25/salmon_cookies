@@ -69,7 +69,7 @@ new CookieStand('Seattle', 23, 65, 6.3);
 new CookieStand('Tokyo', 34, 67, 20.5);
 new CookieStand('Dunai', 8, 34, 12.1);
 new CookieStand('Paris', 19, 70, 29.9);
-new CookieStand('Lima', 5, 19, 4.7);
+new CookieStand('Lima', 10, 19, 7.7);
 function random(min, max) {
  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
