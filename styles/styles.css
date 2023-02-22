@@ -21,6 +21,13 @@ footer{
   color: rgb(0, 51, 51);
 
 }
+#sales-table{
+  margin: auto;
+  margin-bottom: 5%;
+}
+th, tr, td{
+  margin: 2px;
+}
 
 * {
     font-family: 'Helvetica', sans-serif;
@@ -52,22 +59,22 @@ footer{
    }
    
    td {
-   
     background-color: salmon;
-    padding: 5px;
-       border-radius: 8px;
-    border: 1px solid black;
-    font-size: .8em;
+    padding: 8px;
+    border-radius: 25px;
+    border: 3px solid rgb(0, 51, 51);
+    font-size: 1.2em;
     color: white;
 
    }
    
    th {
-       background-color: gray;
-       color: white;
-    padding: 2px;
-    border-radius: 8px;
-    font-size: .8em;
+    border: 3px solid rgb(0, 51, 51);
+    background-color: gray;
+    color: white;
+    padding: 8px;
+    border-radius: 25px;
+    font-size: 1.2em;
    }
    #thefish {
     z-index: 3;
@@ -76,7 +83,7 @@ footer{
     height: 50px;
     position:absolute;
     -webkit-animation-name:             movefish;
-    -webkit-animation-duration:         21s;
+    -webkit-animation-duration:         19s;
     -webkit-animation-iteration-count:  infinite;
     -webkit-transition-timing-function: ease-in-out;   
 
@@ -89,7 +96,7 @@ footer{
     height: 40px;
     position:absolute;
     -webkit-animation-name:             movefish;
-    -webkit-animation-duration:         17s;
+    -webkit-animation-duration:         15s;
     -webkit-animation-iteration-count:  infinite;
     -webkit-transition-timing-function: ease-in-out;
 
@@ -102,7 +109,7 @@ footer{
     height: 60px;
     position:absolute;
     -webkit-animation-name:             movefish3;
-    -webkit-animation-duration:         37s;
+    -webkit-animation-duration:         30s;
     -webkit-animation-iteration-count:  infinite;
     -webkit-transition-timing-function: ease-in-out;   
 
@@ -135,23 +142,32 @@ footer{
    #ocean{
     position:absolute;
     width:100%;
-    min-height:90%;
+    min-height:80%;
     background-image: -webkit-gradient(
     linear,
     left bottom,
     left top,
     color-stop(0, rgb(0,50,150)),
     color-stop(0.50, rgb(0,150,255))
+
     );
     z-index: 0;
    }
    
    .wave{
-    background:#a8e3ff;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(70, 178, 255)),
+    color-stop(0.50, #b3e8ff)
+    );
     display:inline-block;
     z-index: 1;
-    height:20%;
-    width:10px;
+    height:25%;
+    width:1%;
     position:absolute;
     -webkit-animation-name:             dostuff;
     -webkit-animation-duration:         4s;
