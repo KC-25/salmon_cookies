@@ -210,8 +210,9 @@ th, tr, td{
       left:10%;
       top: 85px;
     }
-    from{transform: rotateY(0deg);}
-    to{transform: rotateY(360deg);}
+    from{transform: rotateY(360deg);}
+    to{transform: rotateY(0deg);}
+    
    }
 
    @-webkit-keyframes movefish2{
@@ -235,8 +236,8 @@ th, tr, td{
       left:75%;
       top: 100px;
     }
-    from{transform: rotateY(0deg);}
-    to{transform: rotateY(360deg);}
+    from{transform: rotateY(360deg);}
+    to{transform: rotateY(0deg);}
    }
    
    @-webkit-keyframes movefish3{
@@ -260,8 +261,8 @@ th, tr, td{
       left:25%;
       top: 100px;
     }
-    from{transform: rotateY(0deg);}
-    to{transform: rotateY(360deg);}
+    from{transform: rotateY(360deg);}
+    to{transform: rotateY(0deg);}
    }
    
     
